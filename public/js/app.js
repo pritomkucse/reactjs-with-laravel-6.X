@@ -84665,7 +84665,12 @@ var ProjectsList = /*#__PURE__*/function (_MainActivity) {
         }, project.name, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
           className: "badge badge-primary badge-pill"
         }, project.tasks_count));
-      })))))));
+      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        src: this.APP_URL + '/image/Pic1.jpeg',
+        style: {
+          width: '100%'
+        }
+      }))))));
     }
   }]);
 

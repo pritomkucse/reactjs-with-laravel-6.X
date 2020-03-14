@@ -22,7 +22,7 @@ class ProjectController extends Controller
     {
         $validatedData = $request->validate([
             'name' => 'required',
-            'description' => 'required',
+            'description' => 'max:255',
         ]);
 
         $project = Project::create([

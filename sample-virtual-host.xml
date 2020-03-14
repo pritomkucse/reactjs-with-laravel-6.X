@@ -1,5 +1,5 @@
 <VirtualHost react-with-laravel.com:80>
-    DocumentRoot "C:\Users\PRITOM\Desktop\MINE\reactjs-with-laravel-6.X\public"
+    DocumentRoot "C:\Users\PRITOM\Desktop\MINE\reactjs-with-laravel-6.X"
     ServerName react-with-laravel.com
     ErrorLog "logs/react-with-laravel.com-error.log"
     CustomLog "logs/react-with-laravel.com-access.log" combined

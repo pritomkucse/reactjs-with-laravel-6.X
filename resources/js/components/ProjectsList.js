@@ -53,6 +53,7 @@ class ProjectsList extends MainActivity {
                                         </Link>
                                     ))}
                                 </ul>
+                                <img src={this.APP_URL + '/image/Pic1.jpeg'} style={{width: '100%'}}/>
                             </div>
                         </div>
                     </div>
