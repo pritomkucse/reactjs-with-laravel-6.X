@@ -13,3 +13,11 @@ const mix = require('laravel-mix');
 
 mix.react('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
+
+
+mix.webpackConfig({
+    output: {
+        // Directory for junk files to {ROOT_DIR}/public/js
+        chunkFilename: 'js/chunk/[name].js'
+    },
+});
