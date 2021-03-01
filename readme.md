@@ -1,6 +1,13 @@
 ## Install ReactJS along with Laravel 5.X along with higher version such 6.X
 
-After download source from GitHub run command `composer install` to install laravel dependencies, then run `php artisan migrate` for database migration (but make sure you configure database in .env file) and then run `npm install` to install ReactJS dependencies. Finally run `npm run dev` to package ReactJS and then browser your project directory. That's all.
+After download source from GitHub run 
+command `composer install` to install laravel dependencies, 
+then run `php artisan migrate` for database migration 
+(but make sure you configure database in .env file) and 
+then run `npm install` to install ReactJS dependencies. 
+Finally run `npm run dev` to package ReactJS and then browser 
+your project directory, Run `composer update` to update 
+laravel dependencies. That's all.
 
 ## Sample Output 
 
