@@ -7,7 +7,10 @@ then run `php artisan migrate` for database migration
 then run `npm install` to install ReactJS dependencies. 
 Finally run `npm run dev` to package ReactJS and then browser 
 your project directory, Run `composer update` to update 
-laravel dependencies. That's all.
+laravel dependencies. That's all. Run command `npm outdated` to 
+check outdated dependencies in your project. 
+Run command `php artisan migrate:rollback --step=1` for 
+downgrade/revert last migration.
 
 ## Sample Output 
 
