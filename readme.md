@@ -12,6 +12,8 @@ check outdated dependencies in your project.
 Run command `php artisan migrate:rollback --step=1` for 
 downgrade/revert last migration.
 
+[Check for reacjs package update](https://www.npmjs.com/package/npm-check-updates)
+
 ## Sample Output 
 
 ![Blog Image](https://user-images.githubusercontent.com/25843631/76140697-54eea980-6087-11ea-8ed0-9b8849807518.PNG)
